@@ -1,0 +1,49 @@
+name: salaty_egypt
+description: "تطبيق صلاتي مصر - تطبيق إسلامي متكامل لمواقيت الصلاة في جمهورية مصر العربية"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Offline Storage
+  shared_preferences: ^2.2.3
+
+  # Local Notifications & Exact Alarms
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+  # Audio Playback
+  audioplayers: ^6.0.0
+
+  # Geolocation & Compass
+  geolocator: ^12.0.0
+  flutter_compass: ^0.8.0
+  permission_handler: ^11.3.1
+
+  # Date & Utilities
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/icons/
+    - assets/images/
